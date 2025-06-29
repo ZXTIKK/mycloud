@@ -1,0 +1,19 @@
+.login-page .auth-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-page .auth-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.login-page .form-group {
+    margin-bottom: 20px;
+}
+
+.login-page .auth-footer {
+    margin-top: 20px;
+    text-align: center;
+}

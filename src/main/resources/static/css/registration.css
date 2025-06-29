@@ -1,0 +1,16 @@
+.register-page .auth-card {
+    background-color: var(--white);
+    border-right: 1px solid #eee;
+}
+
+.register-page .auth-form {
+    max-width: 450px;
+}
+
+.register-page .form-group {
+    margin-bottom: 25px;
+}
+
+.register-page .btn-block {
+    margin-top: 30px;
+}

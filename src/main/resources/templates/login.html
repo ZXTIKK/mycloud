@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Вход в My Cloud</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/auth.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="auth-page">
+<div class="auth-container">
+    <div class="auth-card">
+        <div class="auth-header">
+            <a href="../" class="auth-logo">
+                <img src="../images/cloud-logo.svg" alt="My Cloud" width="40" height="40">
+                <span>My Cloud</span>
+            </a>
+            <h1>Вход в аккаунт</h1>
+            <p>Введите свои данные для входа</p>
+        </div>
+
+        <form class="auth-form">
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Ваш email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Пароль</label>
+                <input type="password" id="password" name="password" placeholder="Ваш пароль" required>
+                <a href="/forget" class="forgot-password">Забыли пароль?</a>
+            </div>
+
+            <div class="form-group remember">
+                <input type="checkbox" id="remember" name="remember">
+                <label for="remember">Запомнить меня</label>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">Войти</button>
+
+            <div class="auth-divider">
+                <span>или</span>
+            </div>
+
+            <div class="social-login">
+                <button type="button" class="btn btn-social btn-google">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.64 9.2045C17.64 8.5663 17.5827 7.9527 17.4764 7.3636H9V10.845H13.8436C13.635 11.97 13.0009 12.9231 12.0477 13.5613V15.8195H14.9564C16.6582 14.2527 17.64 11.9454 17.64 9.2045Z" fill="#4285F4"/>
+                        <path d="M9 18C11.43 18 13.4673 17.1941 14.9564 15.8195L12.0477 13.5613C11.2418 14.1013 10.2109 14.4204 9 14.4204C6.65591 14.4204 4.67182 12.8372 3.96409 10.71H0.957275V13.0418C2.43818 15.9831 5.48182 18 9 18Z" fill="#34A853"/>
+                        <path d="M3.96409 10.71C3.78409 10.17 3.68182 9.5931 3.68182 9C3.68182 8.4069 3.78409 7.83 3.96409 7.29V4.9582H0.957273C0.347727 6.1731 0 7.5477 0 9C0 10.4523 0.347727 11.8269 0.957273 13.0418L3.96409 10.71Z" fill="#FBBC05"/>
+                        <path d="M9 3.57955C10.3214 3.57955 11.5077 4.03364 12.4405 4.92545L15.0218 2.34409C13.4632 0.891818 11.4259 0 9 0C5.48182 0 2.43818 2.01682 0.957275 4.95818L3.96409 7.29C4.67182 5.16273 6.65591 3.57955 9 3.57955Z" fill="#EA4335"/>
+                    </svg>
+                    Войти через Google
+                </button>
+
+                <button type="button" class="btn btn-social btn-facebook">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18 9C18 4.02891 13.9711 0 9 0C4.02891 0 0 4.02891 0 9C0 13.4344 3.29297 17.1281 7.59375 17.8172V11.5547H5.30859V9H7.59375V7.01719C7.59375 4.76016 8.93789 3.51562 10.9934 3.51562C11.9775 3.51562 13.0078 3.69141 13.0078 3.69141V5.90625H11.873C10.7555 5.90625 10.4062 6.60094 10.4062 7.31484V9H12.9023L12.5039 11.5547H10.4062V17.8172C14.707 17.1281 18 13.4344 18 9Z" fill="#1877F2"/>
+                    </svg>
+                    Войти через Facebook
+                </button>
+            </div>
+
+            <div class="auth-footer">
+                Нет аккаунта? <a href="/registration">Зарегистрироваться</a>
+            </div>
+        </form>
+    </div>
+
+    <div class="auth-image">
+        <img src="../images/auth-bg.jpg" alt="Безопасное хранилище">
+        <div class="auth-image-overlay">
+            <h2>Безопасное хранилище для ваших данных</h2>
+            <p>Все ваши файлы защищены современными технологиями шифрования</p>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
